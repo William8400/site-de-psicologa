@@ -3,3 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#cabecalho1{
+    background-color: rgb(120, 230, 230);
+    height: 150px;
+}
+
+#primeiro_menu{
+    background-color: bisque;
+}
+
+#cabecalho2{
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+}
