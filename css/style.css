@@ -15,6 +15,24 @@ header{
     box-shadow: 0 2px 8px rgba(0,0,0,0,1);
 }
 
+.botao-agendar {
+    
+    display: inline-block;       
+    padding: 8px 16px;
+    border: none;
+    background: transparent;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.botao-agendar:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+a {
+    text-decoration: none;
+}
+
 .logo{
     width: 70px;
     height: 70px;
@@ -35,7 +53,7 @@ header{
     list-style: none;
 }
 
-.menu_principal li{
+.menu_principal p{
     font-size: 25px;
     font-weight: 500;
     color: #ffffff;
@@ -43,7 +61,7 @@ header{
     transition: color 0.3s ease;
 }
 
-.menu_principal li:hover {
+.menu_principal p:hover {
     color: #7a7a7a;
 }
 
@@ -62,7 +80,7 @@ header{
     background-color: #f9f9f9;
     background-position: top center;
     border-radius: 10px;
-    overflow: hidden; /* garante que a imagem não vaze */
+    overflow: hidden;
     box-shadow: 0 2px 6px rgba(0,0,0,0,1);
 }
 
@@ -109,6 +127,7 @@ footer .info p {
     color: #fffcfc;
     font-size: 22px;
 }
+
 
 footer .redes {
     display: flex;
